@@ -1,4 +1,4 @@
-# DM2008 — Firstname Lastname
+# DM2008 — Quynh Phuong Van (Jane)
 
 **Course:** DM2008: Programming for Interaction  
 **Academic Year:** AY2526 Semester 2  
@@ -8,9 +8,7 @@
 
 ## About This Repo
 
-This is my personal mono-repo for DM2008. It contains all my work across the semester — weekly activities, projects, and the final capstone — committed and documented progressively throughout the course.
-
-<!-- Feel free to personalize this description here -->
+Hi Kapi! This is my coding diary, where I throw all coding project inside! I'm putting a lot of effort into this and really trying my best, so please take a look with an open mind and go easy on me!!!
 
 ---
 
@@ -32,4 +30,4 @@ This is my personal mono-repo for DM2008. It contains all my work across the sem
 
 ---
 
-_For teaching and learning purposes only. All work © <your name here>._
+_For teaching and learning purposes only. All work © <jane>._
