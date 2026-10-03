@@ -19,7 +19,12 @@ In summary, what I have learnt this week evolved around class. I learnt about pr
 
 ### Output
 
-![screenshot](readme-assets/output.png)
+![screenrecording](readme-assets/activity4a-screen-recording)
+![screenshot](readme-assets/activity4a-screenshot1)
+![screenshot](readme-assets/activity4a-screenshot2)
+![screenrecording](readme-assets/activity4b-screen-recording)
+![screenshot](readme-assets/activity4b-screenshot1)
+![screenshot](readme-assets/activity4b-screenshot2)
 
 ---
 

@@ -19,7 +19,12 @@ This week, I have learnt about arrays (one of the my favorite features to be hon
 
 ### Output
 
-![screenshot](readme-assets/output.png)
+![screenrecording](readme-assets/activity3a-screen-recording)
+![screenshot](readme-assets/activity3a-screenshot1)
+![screenshot](readme-assets/activity3a-screenshot2)
+![screenrecording](readme-assets/activity3b-screen-recording)
+![screenshot](readme-assets/activity3b-screenshot1)
+![screenshot](readme-assets/activity3b-screenshot2)
 
 ---
 
@@ -34,4 +39,5 @@ This week, I have learnt about arrays (one of the my favorite features to be hon
 
      ### 🧩 Something I Found Interesting
      When I was trying to do the rotation of the flower, I didn't figure out how to make it rotate around its own center. Instead, they go in a big circular path. Actually, I thought it was really interesting, and assembles more of the Japanese aesthetic. But thinking of the mod as a coding mod, I decided to try to make it rotate on its own to improve my own coding skills:).
+     ![screenshot](readme-assets/activity3b-funError)
      

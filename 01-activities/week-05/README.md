@@ -18,7 +18,9 @@ This week, I learnt about collisions, vectors, state management: boolean variebl
 
 ### Output
 
-![screenshot](readme-assets/output.png)
+![screenrecording](readme-assets/activity5a-screen-recording)
+![screenshot](readme-assets/activity5a-screenshot1)
+![screenshot](readme-assets/activity5a-screenshot2)
 
 ---
 

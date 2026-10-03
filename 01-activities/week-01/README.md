@@ -19,7 +19,9 @@ In summary, I have learnt general set up of p5.js, some basic shapes and their s
 
 ### Output
 
-![screenshot](readme-assets/output.png)
+![screenshot](readme-assets/activity1a-screenshot)
+![screenrecording](readme-assets/activity1b-screen-recording)
+![screenshot](readme-assets/activity1b-screenshot)
 
 ---
      GOING FURTHER:
