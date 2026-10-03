@@ -1,8 +1,4 @@
-# Week ## — Topic Name
-
-<!-- Replace ## with the week number and Topic Name with the week's focus -->
-<!-- You may also refer to each week's slide for the Topic Name -->
-<!-- e.g. Week 03 — Arrays & Functions -->
+# Week 2 — Control Flow and Interactivity
 
 ---
 
@@ -10,17 +6,15 @@
 
 | Activity | What I Made                   |
 | -------- | ----------------------------- |
-| `1a`     | <!-- one line description --> |
-| `1b`     | <!-- one line description --> |
-
-<!-- Add or remove rows to match the activities for this week. -->
+| `2a`     | I created a running thing that changes its shape based on position and interaction, and a background that also changes based on the key you press. |
+| `2b`     | I created an interactive 2D grid pattern that responds to mouse movement. |
 
 ---
 
 ### This Week
 
-<!-- A short, informal summary of what you explored across the week's activities. What did you make? What clicked? What didn't?
-     A few sentences is all you need — write it like a journal entry, not a report. -->
+I learnt how to use the loop, the conditions (if/else, switch), spacing, basically some interactivity and flow. This was a really difficult topic to me at first, but it gradually made more sense after a few application attempts (says jane 1 oct 2026, so it's like 20+ times).
+
 
 ---
 
@@ -28,32 +22,24 @@
 
 ![screenshot](readme-assets/output.png)
 
-<!-- Drop a screenshot, photo, or GIF of something you made this week.
-     Save it to a readme-assets/ folder inside this week's folder.
-     Made more than one thing worth showing? Add more images. -->
-
 ---
 
 <!-- ─────────────────────────────────────────────────────
-     GOING FURTHER — if you want to document more, here are some ideas:
+     GOING FURTHER:
 
-     ### 1a — Activity Name
+     ### 2a — Mode Switch
      ![screenshot](readme-assets/activity-1a.png)
-     What you tried, what you discovered.
+     I tried using the loop to restart once it moves off-canvas. The program uses if/else to change the shape and color based on its position: when on the left half of the canvas it renders a red ellipse; when on the right half it renders a teal rectangle. Holding down any key while the shape is moving changes its color to yellow while retaining its position-based form. Pressing keys 1, 2, 3, or 4 changes the background color. I love the cyan/teal+red+yellow palette so that is why I chose this palette!
 
-     ### 1b — Activity Name
+     ### 2b — Pattern Making
      ![screenshot](readme-assets/activity-1b.png)
-     What you tried, what you discovered.
+     Okay this was such a fun work. It was just a few same code with exercise 1a but I managed to create a much more fun pattern! I realized if you put the sum of the row and the column positions the shape is in, it will move one either down or right, so it creates kind of a grid look. When I discovered this I felt like I was the master of coding already. The colour palette chosen also makes a lot of sense even though it was kind of random? Generally I really enjoyed the process of making this and satisfied with the result!
 
      ### 🧩 Something I Found Interesting
-     A line of code, a technique, a happy accident — paste it here.
-     ```js
-     // your code here
-     ```
-
-     ### ❓ Questions I'm Sitting With
-     Anything unresolved, something you want to revisit, or a rabbit hole you fell into.
-
-     ### 🔗 References
-     Links to anything that helped or inspired you this week.
-     ───────────────────────────────────────────────────── -->
+     The most fun thing I found when I was doing activity 1b is the grid pattern code:
+     
+     if ((column + row) % 2 == 0) {
+        ellipse(x + 25, y + 25, 40);
+      } else {
+        rect(x + 25, y + 25, 40, 40);
+   }

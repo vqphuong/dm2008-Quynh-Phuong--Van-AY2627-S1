@@ -1,8 +1,4 @@
-# Week ## — Topic Name
-
-<!-- Replace ## with the week number and Topic Name with the week's focus -->
-<!-- You may also refer to each week's slide for the Topic Name -->
-<!-- e.g. Week 03 — Arrays & Functions -->
+# Week 1 — Introduction to Creative Coding
 
 ---
 
@@ -10,17 +6,14 @@
 
 | Activity | What I Made                   |
 | -------- | ----------------------------- |
-| `1a`     | <!-- one line description --> |
-| `1b`     | <!-- one line description --> |
-
-<!-- Add or remove rows to match the activities for this week. -->
+| `1a`     | I created a dark brown cat! She is a really symmetrical one so it’s quite easy to create. |
+| `1b`     | I created a quite pop and funky interactive space, where it randomly generates shapes with different colours and transparency, with a rows of ellipses following my cursor. |
 
 ---
 
 ### This Week
 
-<!-- A short, informal summary of what you explored across the week's activities. What did you make? What clicked? What didn't?
-     A few sentences is all you need — write it like a journal entry, not a report. -->
+In summary, I have learnt general set up of p5.js, some basic shapes and their styling, a few simple animation/interaction, variables, randomness. 
 
 ---
 
@@ -28,32 +21,11 @@
 
 ![screenshot](readme-assets/output.png)
 
-<!-- Drop a screenshot, photo, or GIF of something you made this week.
-     Save it to a readme-assets/ folder inside this week's folder.
-     Made more than one thing worth showing? Add more images. -->
-
 ---
+     GOING FURTHER:
 
-<!-- ─────────────────────────────────────────────────────
-     GOING FURTHER — if you want to document more, here are some ideas:
-
-     ### 1a — Activity Name
-     ![screenshot](readme-assets/activity-1a.png)
-     What you tried, what you discovered.
-
-     ### 1b — Activity Name
-     ![screenshot](readme-assets/activity-1b.png)
-     What you tried, what you discovered.
-
-     ### 🧩 Something I Found Interesting
-     A line of code, a technique, a happy accident — paste it here.
-     ```js
-     // your code here
-     ```
-
-     ### ❓ Questions I'm Sitting With
-     Anything unresolved, something you want to revisit, or a rabbit hole you fell into.
-
-     ### 🔗 References
-     Links to anything that helped or inspired you this week.
-     ───────────────────────────────────────────────────── -->
+      ### 1a — Simple Creatures    
+     This is just a really cute dark brown cat, which is on the way to bring me an A+ in Program for Interactive module^^.
+     
+     ### 1b — Learning by Making    
+     I'm really drawn into the randomness! I used the random() function to randomly generate positions, transparency and sizes for rectangles and ellipses, with an ellipse following the user's cursor (mouseX, mouseY). Overall, it created dynamic visual effects. The colour palette that I chose is a very vibrant, neon-ish pinks, so it looks pop and funky!
