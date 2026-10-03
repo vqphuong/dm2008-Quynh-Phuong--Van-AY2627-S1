@@ -13,7 +13,7 @@
 // Stretch: give each agent a lifespan — shrink or fade it over time, then remove it.
 // Hint: a backward loop lets you safely splice items while iterating.
 
-let palette = ["#ead3ff", "#93dffb", "#ffd1f5"];
+let palette = ["#ebd4ff", "#97e4ff", "#ffd6fe"];
 
 let agents = [];
 const NUM_START = 12;
