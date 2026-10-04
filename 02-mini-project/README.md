@@ -10,11 +10,9 @@ Ducky Adventure is a narrative-driven version on classic Flappy Bird where a duc
 
 ### Output
 
-![screenshot](readme-assets/screenshot-01.png)
-
-<!-- Drop a screenshot or GIF of your finished project.
-     Save it to a readme-assets/ folder inside this project folder.
-     Got more than one good screenshot? Add them. -->
+![screenshot](readme-assets/screenshot-01)
+![screenshot](readme-assets/screenshot-02)
+![screenshot](readme-assets/screenshot-03)
 
 [Watch Online](https://your-link-here)
 
@@ -32,6 +30,7 @@ I'm responsible for:
 - Coding: 
 + Different endings for different collisions.
 + Helping with duck-column collision, background looping, speeding up.
+Other coding features Hao Tong is fully Hao Tong's! She's a good coder and helps me a lot with explaining the coding lessons:).
 
 In term of the assets, what we were aiming for is a pixelated-lookign assets with a hell-inspired colour palette (purple, yellow, orange, red). They turned out to be quite nice and close to our vision. And for game features, we did deliver most of our game's planned features successfully, except for one which I'll mention below. Generally, I'm very satisfied with how the game turned out!
 
