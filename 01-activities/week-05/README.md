@@ -24,13 +24,15 @@ This week, I learnt about collisions, vectors, state management: boolean variebl
 
 ---
 
-<!-- ─────────────────────────────────────────────────────
-     GOING FURTHER:
+### 5a — Colliding Circles  
 
-     ### 5a — Colliding Circles     
-     In this code, I created 3 circles, which will change colour when colliding with each other.
+![screenshot](readme-assets/activity5a-screenshot1)   
+In this code, I created 3 circles, which will change colour when colliding with each other.
 
-     This is the last weekly coding exercise, so i spent a bit more time on this. One of the most difficult part of this code is to keep the colour of the balls after colliding, which was solved by a boolean variable. I did experience with some different actions, like double the size of the balls after colliding, but this is the final look that I was satisfied with.
+This is the last weekly coding exercise, so i spent a bit more time on this. One of the most difficult part of this code is to keep the colour of the balls after colliding, which was solved by a boolean variable. I did experience with some different actions, like double the size of the balls after colliding, but this is the final look that I was satisfied with.
 
-      ### ❓ Questions I'm Sitting With
-    I will come back and try to make more balls rendering when colliding. I did try to deliver that but it didn't really work. Maybe after a few more attempt with coding, I'll be able to deliver that out!
+---
+
+### ❓ Questions I'm Sitting With
+
+I will come back and try to make more balls rendering when colliding. I did try to deliver that but it didn't really work. Maybe after a few more attempt with coding, I'll be able to deliver that out!
