@@ -33,4 +33,4 @@ This is just a really cute dark brown cat, which is on the way to bring me an A 
 
 ### 1b — Learning by Making  
 ![screenshot](readme-assets/activity1b-screenshot)  
-I'm really drawn into the randomness! I used the random() function to randomly generate positions, transparency and sizes for rectangles and ellipses, with an ellipse following the user's cursor (mouseX, mouseY). Overall, it created dynamic visual effects. The colour palette that I chose is a very vibrant, neon-ish pinks, so it looks pop and funky!
+I'm really drawn into the randomness! I used the random() function to randomly generate positions, transparency and sizes for rectangles and ellipses, with an ellipse following the user's cursor (mouseX, mouseY). Overall, it created dynamic visual effects. The colour palette that I chose is a very vibrant, neon-ish pinks, so it looks quite pop and funky!!
