@@ -20,23 +20,23 @@ I learnt how to use the loop, the conditions (if/else, switch), spacing, basical
 
 ### Output
 
-![screenrecording](readme-assets/activity2a-screen-recording)
-![screenshot](readme-assets/activity2a-screenshot1)
-![screenshot](readme-assets/activity2a-screenshot2)
-![screenrecording](readme-assets/activity2b-screen-recording)
-![screenshot](readme-assets/activity2b-screenshot1)
-![screenshot](readme-assets/activity2b-screenshot2)
+![screenrecording](readme-assets/activity2a-screen-recording.mov)
+![screenshot](readme-assets/activity2a-screenshot1.png)
+![screenshot](readme-assets/activity2a-screenshot2.png)
+![screenrecording](readme-assets/activity2b-screen-recording.mov)
+![screenshot](readme-assets/activity2b-screenshot1.png)
+![screenshot](readme-assets/activity2b-screenshot2.png)
 
 ---
 
 ### 2a — Mode Switch
-![screenshot](readme-assets/activity2a-screenshot1)
+![screenshot](readme-assets/activity2a-screenshot1.png)
 I tried using the loop to restart once it moves off-canvas. The program uses if/else to change the shape and color based on its position: when on the left half of the canvas it renders a red ellipse; when on the right half it renders a teal rectangle. Holding down any key while the shape is moving changes its color to yellow while retaining its position-based form. Pressing keys 1, 2, 3, or 4 changes the background color. I love the cyan/teal+red+yellow palette so that is why I chose this palette!
 
 ---
 
 ### 2b — Pattern Making
-![screenshot](readme-assets/activity2b-screenshot1)
+![screenshot](readme-assets/activity2b-screenshot1.png)
 Okay this was such a fun work. It was just a few same code with exercise 1a but I managed to create a much more fun pattern! I realized if you put the sum of the row and the column positions the shape is in, it will move one either down or right, so it creates kind of a grid look. When I discovered this I felt like I was the master of coding already. The colour palette chosen also makes a lot of sense even though it was kind of random? Generally I really enjoyed the process of making this and satisfied with the result!
 
 ---

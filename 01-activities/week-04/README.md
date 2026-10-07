@@ -19,22 +19,22 @@ In summary, what I have learnt this week evolved around class. I learnt about pr
 
 ### Output
 
-![screenrecording](readme-assets/activity4a-screen-recording)
-![screenshot](readme-assets/activity4a-screenshot1)
-![screenshot](readme-assets/activity4a-screenshot2)
-![screenrecording](readme-assets/activity4b-screen-recording)
-![screenshot](readme-assets/activity4b-screenshot1)
-![screenshot](readme-assets/activity4b-screenshot2)
+![screenrecording](readme-assets/activity4a-screen-recording.mov)
+![screenshot](readme-assets/activity4a-screenshot1.png)
+![screenshot](readme-assets/activity4a-screenshot2.png)
+![screenrecording](readme-assets/activity4b-screen-recording.mov)
+![screenshot](readme-assets/activity4b-screenshot1.png)
+![screenshot](readme-assets/activity4b-screenshot2.png)
 
 ---
 
 ### 4a — Bake a cookie
-![screenshot](readme-assets/activity4a-screenshot1)
+![screenshot](readme-assets/activity4a-screenshot1.png)
 This was the first time I used class in my code, and I did have a lot of fun doing it! Different from the function from last week, in this exercise, we were able to create various variations of the cookies, and use interactivity to manipulate them. The cookie has 3 flavours, randomly chosen when you click your mouse, and you can also increase and decrease the size of the cookie, move it to the side by pressing different keys.
 
 ---
 
 ### 4b — Objects in Motion
-![screenshot](readme-assets/activity4b-screenshot1)
+![screenshot](readme-assets/activity4b-screenshot1.png)
 This is an interactive screen where it renders particles in different sizes and random pastel colours wherever you click.
 At first, I thought this exercise is not going to be so challenging, because I have a really fixed direction that I wanted to go (silly me). But it turned out to be a disaster, because I wasn't able to figure out how to make the particles in random colours when generated. But with the help of Kapi, I did not just do it successfully, but also understand the logic behind it (put it in agent.push() because I want it to be random coloured everytime generated I don't know what happened to me). In general, this is a really fun work!
