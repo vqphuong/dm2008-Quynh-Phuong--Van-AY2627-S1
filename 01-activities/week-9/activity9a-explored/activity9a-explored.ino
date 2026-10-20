@@ -1,0 +1,58 @@
+// DM2008 — Activity 9a
+// Mapping Sensors (30 min)
+//
+// Adjust and refine until the response feels smooth and natural.
+
+const int usSensorPin = A0;
+const float usMaxRange = 520.0;
+const float dataSize = 1023.0;
+
+// TODO: declare your LED pin here (must be a PWM pin, marked with ~)
+
+const int ledPin1 = 9;
+const int ledPin2 = 8;
+float sensorVal, distVal;
+int brightness = 0;
+int fadeAmount = 5;
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(ledPin1, OUTPUT);
+  pinMode(ledPin2, OUTPUT);
+  // TODO: set up your LED pin here (hint: pinMode)
+}
+
+void loop() {
+
+  analogWrite(ledPin1, brightness);
+  analogWrite(ledPin2, brightness);
+
+  sensorVal = analogRead(usSensorPin);
+  distVal = sensorVal * usMaxRange / dataSize;
+
+  // Clamp to a range that suits a desk / classroom setup (cm)
+  if (distVal < 5)   distVal = 5;
+  if (distVal > 100) distVal = 100;
+
+  // map() rescales a value from one range to another
+  // here: distance (5–100cm) becomes brightness (255–0)
+  // the output range is flipped so that CLOSER = BRIGHTER
+  // (note: Arduino's map() uses whole numbers, so decimals are dropped)
+  brightness = map(distVal, 5, 100, 255, 0);
+  brightness = constrain(brightness, 0, 255);
+
+  if (brightness <= 0 || brightness >= 255) {
+    fadeAmount = -fadeAmount;
+  }
+  delay(30);
+
+  // TODO: use analogWrite() to send brightness to your LED pin
+  // analogWrite(ledPin, brightness);
+
+  Serial.print(distVal);
+  Serial.println(" cm");
+  Serial.print("Brightness: ");
+  Serial.println(brightness);
+
+  delay(50);
+}
