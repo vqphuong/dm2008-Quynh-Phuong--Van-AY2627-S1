@@ -13,6 +13,9 @@ A screen-size pattern of circle that will change their size based on the distanc
 ![screenshot](sensor-jam-template/documentation/sensorjam-photo-firstdraft.png)
 ![screenshot](sensor-jam-template/documentation/sensorjam-photo-firstdraft.png)
 ![screenshot](sensor-jam-template/documentation/sensorjam-photo-final.png)
+![screenrecording](sensor-jam-template/documentation/sensorjam-recording-firstdraft.mov)
+![screenrecording](sensor-jam-template/documentation/sensorjam-recording-explore.mov)
+![screenrecording](sensor-jam-template/documentation/sensorjam-recording-final.mov)
 
 ---
 
