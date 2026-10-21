@@ -10,10 +10,9 @@ A screen-size pattern of circle that will change their size based on the distanc
 
 ### Output
 
-![screenshot](documentation/sensorjam-photo-firstdraft.png)
-![screenshot](documentation/sensorjam-photo-explore.png)
-![screenshot](documentation/sensorjam-photo-final.png)
-<video controls src="documentation/sensorjam-recording-explore.mov" title="Title"></video>
+![screenshot](sensor-jam-template/documentation/sensorjam-photo-firstdraft.png)
+![screenshot](sensor-jam-template/documentation/sensorjam-photo-firstdraft.png)
+![screenshot](sensor-jam-template/documentation/sensorjam-photo-final.png)
 
 ---
 
