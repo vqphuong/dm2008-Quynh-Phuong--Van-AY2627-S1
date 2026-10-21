@@ -2,8 +2,6 @@
 
 A p5.js sketch that receives sensor data from an Arduino over USB (Web Serial) and uses it to change a visual. Use it with the Week 9 Arduino activities.
 
-_Rename the main folder when you duplicate this for your own projects!_
-
 ## Setup
 
 1. **Arduino:** upload your sketch (e.g. `activity_9a`). Each reading must be on its own line and start with a number, e.g. `Serial.println(distVal);`. Lines that don't start with a number (like `Brightness: 120` in `activity_9a`) are ignored.
@@ -23,6 +21,13 @@ _Rename the main folder when you duplicate this for your own projects!_
 
 ## Your project notes
 
-Document your project here: what it does, what sensor you used, and how the data maps to the visual.
+What it does: The pattern in my code will change according to the distance of the person to the sensor.
+
+What sensor you used: Ultrasonic Sensor
+
+How the data maps to the visual:
+The Arduino reads input from the sensor and prints numerical values over the serial connection.
+- The Web Serial shows the readings in real time.
+- Then this value control the visual elements by adjust the ellipse radius and transparency. We changed the transparency and radius property with circleSize, and the circleSize is based on the distance (the numerical values).
 
 ---

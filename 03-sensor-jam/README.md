@@ -13,6 +13,7 @@ A screen-size pattern of circle that will change their size based on the distanc
 ![screenshot](documentation/sensorjam-photo-firstdraft.png)
 ![screenshot](documentation/sensorjam-photo-explore.png)
 ![screenshot](documentation/sensorjam-photo-final.png)
+<video controls src="documentation/sensorjam-recording-explore.mov" title="Title"></video>
 
 ---
 
@@ -56,6 +57,6 @@ We also learnt that transparency can't have negative value (oops). I feel like i
 
 ---
 
-### 🧩 Something I'm Stuck With
+### Something I'm Stuck With
 
 We didn't figure out how to make the blue ellipse have no line and the rest have. I know if a style id defined, it continues to be inherited by all shapes drawn after the declaration, unless a new style is defined override it. But we did try to overrides the style but still didn't success. If we have more time, I would definitely try to figure that out!
