@@ -61,9 +61,10 @@ Afterwards, I created background through Figma (to ensure the first and last fra
 ### ✨ Features
 - Press the sensor (or mouse) to grow a hand-drawn spiral, with a looping pencil sound
 - Release to let the spiral float and bounce around the screen
-- Spirals that collide bounce apart, change colour, and play a note from Do to Si
+- Spirals that collide bounce apart, change to random colour, and play a note from Do to Si
 - New spirals avoid spawning on top of existing ones
 - Ambient floating balls over a looping background video
+- Random strokeWeight and colours for spirals. Random colours for balls
 
 ---
 
