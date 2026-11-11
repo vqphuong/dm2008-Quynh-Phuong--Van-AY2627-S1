@@ -3,8 +3,8 @@
 I apologise for any loss of quality / short videos in the documention! I tried to make it as light as I could:)
 
 I did (excluding the music, which is coded solely by Hao Tong): 
-full credit: ball collision, background (creation and code), moodboard.
-together with Hao Tong: ideation, spiral generating and collision (including hand-drawn effect)
+full credit: ball collision, background (creation and code), visual direction
+together with Hao Tong: ideation, spiral generating and collision (including hand-drawn effect), moodboards
 
 ---
 
@@ -20,6 +20,7 @@ This p5.js sketch is an interactive audio-visual piece controlled by an Arduino 
 ![screenshot](documentation/finalScreenshot.png)
 ![screenrecording](documentation/finalVid.mp4)
 ![screenrecording](documentation/finalVid-arduino.mp4)
+![screenshot](documentation/ourSharedBoard.png)
 
 ---
 
