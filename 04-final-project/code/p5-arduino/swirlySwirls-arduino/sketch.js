@@ -297,7 +297,7 @@ class Ball {
     this.r = random(10, 30);
     this.hasCollided = false;
     this.col = random(palette);
-    this.alpha = random(alpha);
+    // this.alpha = random(alpha);
   }
 
   move() {
@@ -324,7 +324,7 @@ class Ball {
 
   show() {
   //  if (this.hasCollided) {
-   fill(this.col, this.alpha);
+   fill(this.col);
    noStroke();
    ellipse(this.pos.x, this.pos.y, this.r);
   // } else {
