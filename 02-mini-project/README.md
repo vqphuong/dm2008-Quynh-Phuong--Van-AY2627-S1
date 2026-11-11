@@ -13,6 +13,7 @@ Ducky Adventure is a narrative-driven version on classic Flappy Bird where a duc
 ![screenshot](readme-assets/screenshot-01)
 ![screenshot](readme-assets/screenshot-02)
 ![screenshot](readme-assets/screenshot-03)
+![screenrecording](readme-assets/video-duckyAdventure-haoTong-jane.mov)
 
 [Watch Online](https://drive.google.com/drive/folders/1EfRPMjRUURozShrH7MFg0QINCSHiw59a?usp=share_link)
 
