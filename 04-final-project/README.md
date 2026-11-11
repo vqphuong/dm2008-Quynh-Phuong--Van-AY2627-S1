@@ -2,6 +2,10 @@
 
 I apologise for any loss of quality / short videos in the documention! I tried to make it as light as I could:)
 
+I did (excluding the music, which is coded solely by Hao Tong): 
+full credit: ball collision, background (creation and code), moodboard.
+together with Hao Tong: ideation, spiral generating and collision (including hand-drawn effect)
+
 ---
 
 ### The Project
@@ -30,6 +34,26 @@ Visually, I wanted the spirals to feel hand-drawn rather than computer-perfect, 
 My biggest challenge was collisions. At first, overlapping spirals triggered sounds every frame and got stuck bouncing back and forth. With help from AI, I added a table that remembers which pairs are already touching, so each hit plays only one note.
 
 With more time, I would map the sensor's pressure to the spiral's thickness or growth speed, make notes depend on spiral size instead of being random, and fix the ball collisions to track each pair separately!
+
+---
+
+### Process
+
+First, we learned to create a spiral using Polar Coordinates. We were able to create an interesting effect, similar to ink bleed, by randomizing the stroke weight:
+
+![screenshot](documentation/process-screenshot1.png)
+![screenrecording](documentation/process-screenrec1.mov)
+
+Then, we added colours and make it floated onto the canvas. Basic collision was already applied here:
+
+![screenshot](documentation/process-screenshot2.png)
+![screenrecording](documentation/process-screenrec2.mov)
+
+After that, we add the wombly effect using map(), noise() and floor():
+
+![screenshot](documentation/process-screenshot3.png)
+
+Afterwards, I created background through Figma (to ensure the first and last frame are the same hehe) and looped it over the background. I also added balls / particles in just to have some for visual motion. Then we fixed the collions! (refer to outputs photos)
 
 ---
 
