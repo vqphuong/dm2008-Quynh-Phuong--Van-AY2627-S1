@@ -1,69 +1,86 @@
-# Final Project — Title
+# Final Project — Swirly Swirls
 
-<!-- Replace "Title" with the name of your project -->
+I apologise for any loss of quality / short videos in the documention! I tried to make it as light as I could:)
 
 ---
 
 ### The Project
 
-<!-- What is your project and what does it do?
-     What experience does it create, and who or what does it respond to?
-     A short paragraph is ideal — make it something you'd be happy for anyone to read. -->
+This p5.js sketch is an interactive audio-visual piece controlled by an Arduino sensor or the mouse. While the user presses (the sensor or the mouse), a hand-drawn-looking spiral grows on screen with a pencil-scratching sound. When the user lets go, the spiral is released and starts drifting around the canvas. Each time two spirals bump into each other, they bounce apart, change colour, and play a random musical note (Do, Re, Mi, Fa, So, La, Si). Small coloured balls float in the background over a looping video, adding movement and depth.
 
 ---
 
 ### Output
 
-![screenshot](readme-assets/screenshot-01.png)
-
-<!-- Drop a screenshot or GIF of your project.
-     Got more to show? Add more images — let the work speak for itself.
-     Save everything to a readme-assets/ folder inside this project folder. -->
-
-[Watch Online](https://your-link-here)
-
-<!-- Replace the link above with a URL to a screen recording or video of your final project.
-     ⚠️ Make sure the file or page is set to public before submitting. -->
+![screenshot](documentation/arduinoSetUp.png)
+![screenshot](documentation/finalScreenshot.png)
+![screenrecording](documentation/finalVid.mp4)
+![screenrecording](documentation/finalVid-arduino.mp4)
 
 ---
 
 ### ✍️ Reflection
 
-<!-- 200–300 words on your process and outcome. Write freely — this is your story to tell.
-     Some prompts to get you started:
-     — What did you set out to create, and how did the final result compare to your original vision?
-     — How is your project structured — what inputs does it respond to and how did you approach the code?
-     — What were your key visual and/or sonic design decisions, and why?
-     — What was your biggest challenge, and how did you work through it?
-     — What would you change, add, or explore further given more time? -->
+My original idea is a spiral grows with a pencil-scratching sound while the user presses, then drifts freely and plays a note whenever it bumps into another spiral. The final result is really close to our idea I supposed!
+
+The project responds to two inputs: once the force sensor value passes a threshold, the sketch treats it as a press. I structured the code around two classes: `Spiral`, the main drawn element that grows and then moves, and `Ball`, which adds ambient motion over a looping background video.
+
+Visually, I wanted the spirals to feel hand-drawn rather than computer-perfect, so I added noise to the radius to make the line wobble slightly. I chose a bright, playful palette that stands out against the video. For the sound, I used the seven notes from Do to Si so that every collision produces something musical rather than random noise, and the pencil sound gives direct feedback while drawing.
+
+My biggest challenge was collisions. At first, overlapping spirals triggered sounds every frame and got stuck bouncing back and forth. With help from AI, I added a table that remembers which pairs are already touching, so each hit plays only one note.
+
+With more time, I would map the sensor's pressure to the spiral's thickness or growth speed, make notes depend on spiral size instead of being random, and fix the ball collisions to track each pair separately!
 
 ---
 
-<!-- ─────────────────────────────────────────────────────
-     GOING FURTHER — want to document more? Try any of these:
+### ✨ Features
+- Press the sensor (or mouse) to grow a hand-drawn spiral, with a looping pencil sound
+- Release to let the spiral float and bounce around the screen
+- Spirals that collide bounce apart, change colour, and play a note from Do to Si
+- New spirals avoid spawning on top of existing ones
+- Ambient floating balls over a looping background video
 
-     ### ✨ Features
-     A short list of what your project does.
-     - Responds to mouse position and velocity
-     - Generates sound based on particle density
+---
 
-     ### 🔍 Code Structure
-     How are your files organised?
-     - `sketch.js` — main setup and draw loop
-     - `Agent.js` — autonomous agent class
-     - `assets/` — images and sounds
+### 🔍 Code Structure
+- `sketch.js` — setup, draw loop, serial input, collision logic, and the `Spiral` and `Ball` classes
+- `index.html` — loads p5.js, p5.sound, and p5.webserial
+- `background.mp4` — looping background video
+- `DO.mp3` – `SI.mp3` — seven collision notes
+- `Pencil.MP3` — drawing sound
 
-     ### 🛠️ Hardware (if applicable)
-     List any physical components used.
-     - Arduino Uno
-     - Sensor type and model
+---
 
-     ### 🧩 Something I'm Proud Of
-     A snippet, a decision, a moment where it all came together.
-     ```js
-     // your code here
-     ```
+### 🛠️ Hardware (if applicable)
+- Arduino
+- Force Sensor
+- Resistor, wires, breadboard
 
-     ### 🔗 References
-     Tutorials, libraries, artworks, or research that informed your project.
-     ───────────────────────────────────────────────────── -->
+---
+### Something I Find Interesting
+
+The spiral collisions were the hardest part to get right. At first, two overlapping spirals would trigger a note every single frame and get stuck bouncing back and forth inside each other. I worked through it by only checking spirals that have finished growing, and by keeping a `collisionPairs` table that remembers whether each pair is already touching. Now a collision only counts at the moment two spirals first meet, so each hit plays one clean note, swaps their colours, and sends them bouncing apart.
+
+// Only check collision when both spirals are finished
+if (!iIsNew && !jIsNew) {
+  let d = dist(spiral[i].pos.x, spiral[i].pos.y,
+               spiral[j].pos.x, spiral[j].pos.y);
+
+  let r1 = 5 * spiral[i].angle;
+  let r2 = 5 * spiral[j].angle;
+  let colliding = d < (r1 + r2);
+
+  // React only on the first frame of contact
+  if (colliding && !collisionPairs[i][j]) {
+    spiral[i].vel.mult(-1);
+    spiral[j].vel.mult(-1);
+
+    spiral[i].col = color(random(palette));
+    spiral[j].col = color(random(palette));
+
+    let note = floor(random(music.length));
+    music[note].play();
+  }
+
+  collisionPairs[i][j] = colliding;
+}

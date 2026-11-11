@@ -1,0 +1,3 @@
+# My Project
+
+This is the Arduino version of my final project, where the spirals are triggered by a force sensor connected to an Arduino instead of the mouse. When the sensor value goes above a threshold, a new spiral starts growing at a random spot on the screen, avoiding existing spirals. The features are: generate hand-drawn spirals when pressing, musical notes when colliding, looping video backgrounds, colliding balls.
