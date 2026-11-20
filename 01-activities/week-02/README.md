@@ -20,10 +20,10 @@ I learnt how to use the loop, the conditions (if/else, switch), spacing, basical
 
 ### Output
 
-![screenrecording](readme-assets/activity2a-screen-recording.mov)
+![screenrecording](readme-assets/activity2a-screen-recording.mp4)
 ![screenshot](readme-assets/activity2a-screenshot1.png)
 ![screenshot](readme-assets/activity2a-screenshot2.png)
-![screenrecording](readme-assets/activity2b-screen-recording.mov)
+![screenrecording](readme-assets/activity2b-screen-recording.mp4)
 ![screenshot](readme-assets/activity2b-screenshot1.png)
 ![screenshot](readme-assets/activity2b-screenshot2.png)
 

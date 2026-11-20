@@ -20,7 +20,7 @@ In summary, this week I learnt about different UI elements, how to use and style
 
 ![screenshot](readme-assets/10-screenshot1.png)
 ![screenshot](readme-assets/10-screenshot2.png)
-![screenrecording](readme-assets/10-screenrecording.mov)
+![screenrecording](readme-assets/10-screenrecording.mp4)
 
 ---
 

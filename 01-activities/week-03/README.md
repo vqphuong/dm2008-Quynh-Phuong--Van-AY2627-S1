@@ -19,10 +19,10 @@ This week, I have learnt about arrays (one of the my favorite features to be hon
 
 ### Output
 
-![screenrecording](readme-assets/activity3a-screen-recording.mov)
+![screenrecording](readme-assets/activity3a-screen-recording.mp4)
 ![screenshot](readme-assets/activity3a-screenshot1.png)
 ![screenshot](readme-assets/activity3a-screenshot2.png)
-![screenrecording](readme-assets/activity3b-screen-recording.mov)
+![screenrecording](readme-assets/activity3b-screen-recording.mp4)
 ![screenshot](readme-assets/activity3b-screenshot1.png)
 
 ---
@@ -41,4 +41,4 @@ For this activity, I designed a custom flower function, used push() and pop() al
 
 ### 🧩 Something I Found Interesting
 When I was trying to do the rotation of the flower, I didn't figure out how to make it rotate around its own center. Instead, they go in a big circular path. Actually, I thought it was really interesting, and assembles more of the Japanese aesthetic. But thinking of the mod as a coding mod, I decided to try to make it rotate on its own to improve my own coding skills:).
-![screenrecording](readme-assets/activity3b-funError.mov)
+![screenrecording](readme-assets/activity3b-funError.mp4)

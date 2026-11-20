@@ -6,7 +6,7 @@
 
 | Activity | What I Made                   |
 | -------- | ----------------------------- |
-| `5a`     | I created a dark brown cat! She is a really symmetrical one so it’s quite easy to create. |
+| `5a`     | I created 3 balls that change colour when colliding. |
 
 ---
 
@@ -18,7 +18,7 @@ This week, I learnt about collisions, vectors, state management: boolean variebl
 
 ### Output
 
-![screenrecording](readme-assets/activity5a-screen-recording.mov)
+![screenrecording](readme-assets/activity5a-screen-recording.mp4)
 ![screenshot](readme-assets/activity5a-screenshot1.png)
 ![screenshot](readme-assets/activity5a-screenshot2.png)
 
