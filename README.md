@@ -1,7 +1,7 @@
 # DM2008 — Quynh Phuong Van (Jane)
 
 **Course:** DM2008: Programming for Interaction  
-**Academic Year:** AY2526 Semester 2  
+**Academic Year:** AY2627 Semester 1  
 **Nanyang Technological University, Singapore**
 
 ---
