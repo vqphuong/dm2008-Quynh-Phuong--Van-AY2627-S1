@@ -20,7 +20,7 @@ In summary, I have learnt general set up of p5.js, some basic shapes and their s
 ### Output
 
 ![screenshot](readme-assets/activity1a-screenshot.png)
-![screenrecording](readme-assets/activity1b-screen-recording.mov)
+![screenrecording](readme-assets/activity1b-screen-recording.mp4)
 ![screenshot](readme-assets/activity1b-screenshot.png)
 
 ---
