@@ -17,16 +17,9 @@ Hi Kapi! This is my coding diary, where I throw all coding project inside! I'm p
 | Folder              | What's Inside                                    |
 | ------------------- | ------------------------------------------------ |
 | `01-activities/`    | Weekly in-class activities and exercises         |
-| `02-mini-project/`  | Mini Project — Pong or Flappy Bird clone         |
-| `03-sensor-jam/`    | Sensor Jam — Arduino to p5.js interactive sketch |
-| `04-final-project/` | Final Project — end-of-semester capstone         |
-
----
-
-## 🖼️ Project Highlights
-
-<!-- Optional: Showcase your favourite output from the semester here -->
-<!-- Add a screenshot or a short description of your best work -->
+| `02-mini-project/`  | Ducky Adventure         |
+| `03-sensor-jam/`    | Kaleidoscope |
+| `04-final-project/` | Swirly Swirls         |
 
 ---
 
